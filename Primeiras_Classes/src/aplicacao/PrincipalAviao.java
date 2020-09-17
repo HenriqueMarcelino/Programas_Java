@@ -14,11 +14,13 @@ Scanner tec = new Scanner(System.in);
 		Aviao aviao = new Aviao();
 		
 		System.out.println("BEM VINDO AO SISTEMA AERONATICO !!");
-		System.out.println("\nInforme a compania:");
+		System.out.println("\nInforme a compania que você escolheu para viagem:");
 		aviao.compania = tec.next().toUpperCase();
 		
-		System.out.printf("\nInforme o numero do avião:");
+		System.out.printf("\nInforme o numero do avião: ");
 		aviao.numeroAviao = tec.nextInt();
+		
+
 		
 		
 		aviao.mostraAviao();

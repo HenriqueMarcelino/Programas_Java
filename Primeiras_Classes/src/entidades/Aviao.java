@@ -10,6 +10,6 @@ public class Aviao {
 		
 		System.out.printf("\nA compania é :%s ",compania);
 		System.out.printf("\nO numero do avião: %s ",numeroAviao);
-		
+		System.out.println("\nEssa aeronave não faz viagens internacionais...");
 	}
 }
