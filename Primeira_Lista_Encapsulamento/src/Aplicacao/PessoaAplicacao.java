@@ -13,6 +13,7 @@ public class PessoaAplicacao {
 		Scanner tec = new Scanner(System.in);
 		
 	//******TESTES CLASSE CLIENTE**************
+	
 		System.out.println("Informaçãoes do Cliente");
 		
 		Pessoa pessoa = new Pessoa();
@@ -25,6 +26,7 @@ public class PessoaAplicacao {
 		System.out.println(pessoa.getTelefone());
 	
 	//******TESTES CLASSE FORNECEDOR***************
+		
 		Fornecedor fornecedor = new Fornecedor();
 		fornecedor.setNome("Generation Brasil LTDA");
 		fornecedor.setEndereco("Rua POO, N°100");
