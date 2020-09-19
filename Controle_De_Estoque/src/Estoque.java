@@ -1,4 +1,5 @@
-import java.util.Arrays;
+
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Scanner;
 
@@ -9,19 +10,16 @@ public class Estoque {
 		
 		Scanner tec = new Scanner(System.in);
 		
-		Collection <String> estoque = Arrays.asList();
+		Collection <String> estoque = new ArrayList();
 		estoque.add("Lapis");
 		estoque.add("Caneta");
 		estoque.add("Caderno");
 		
-		for (int i = 0; i<3;i++ ) 
-		{
-			System.out.println(estoque);
-		}
+		System.out.println("Estoque completo: "+estoque);
 		
-		
-		
-		
+		estoque.remove("Lapis");
+		System.out.println("Estoque com um item retirado: "+estoque);
+	
 		tec.close();
 
 	}
